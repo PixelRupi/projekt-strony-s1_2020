@@ -1,0 +1,143 @@
+body{
+  position: relative;
+  background-color: #2e2d2b;
+}
+
+#header{
+  width: 100%;
+  height: 240px;
+  background-color: #123456;
+}
+
+#logo{
+  width: 30%;
+  height: 240px;
+  float: left;
+  font-size: 150%;
+  color: #ce951a;
+}
+
+#nav_buttons{
+  width: 70%;
+  height: 240px;
+  float: left;
+  background: #214765;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#title {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #4287f5;
+  font-size: 450%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#lista{
+  float: left;
+  width: 40%;
+  background-color: #328ba8;
+  color: #ffffff;
+  font-size: 150%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 628px;
+}
+
+#lista2{
+  float: left;
+  width: 40%;
+  background-color: #328ba8;
+  color: #ffffff;
+  font-size: 150%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 640px;
+}
+
+#main_area{
+  float: left;
+  width: 60%;
+  background-color: #7fb5c7;
+  color: #ffffff;
+  font-size: 150%;
+  height: 100%;
+}
+
+#footer{
+  clear: both;
+  width: 100%;
+  height: 50px;
+  background: #214765;
+  color: white;
+  font-size: 180%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#button{
+  border: 2px solid #ce951a;
+  color: white;
+  margin: 2px 0;
+  background-color: #2e2d2b;
+  color: #ce951a;
+  width: 19%;
+  height: 80px;
+  font-size: 200%;
+
+}
+
+#middle_image{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+td, tr, table{
+  border: solid 1px white;
+  text-align: center;
+}
+
+a:link, a:hover, a:visited, a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#gallery{
+  margin: 10px;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#galeria{
+  width: 50%;
+  float: left;
+}
+
+
+
+#rotate {
+    -webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(359deg);}
+    to   {-webkit-transform: rotate(0deg);}
+}
